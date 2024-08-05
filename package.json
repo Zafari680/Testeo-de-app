@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "cypress": "^13.13.2"
+  },
+  "name": "testing-qa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": { 
+  "cypress:run": "npx cypress run --spec \"cypress/e2e/example.spec.js\" --headless --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
